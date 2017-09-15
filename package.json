@@ -1,0 +1,17 @@
+{
+  "name": "beehive",
+  "version": "0.0.1",
+  "description": "Multhy thread, async JS library",
+  "main": "bee.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristiyan Nikolov",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.0"
+  }
+}
