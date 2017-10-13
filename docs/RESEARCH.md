@@ -17,3 +17,4 @@
 ### Other
 
 - https://lernajs.io/
+- http://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-5.html

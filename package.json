@@ -8,9 +8,8 @@
   "author": "Kristiyan Nikolov",
   "license": "MIT",
   "dependencies": {
-    "rxjs": "^5.4.3"
   },
   "devDependencies": {
-    "typescript": "^2.5.2"
+    "typescript": "^2.5.3"
   }
 }
