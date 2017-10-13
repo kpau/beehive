@@ -4,7 +4,7 @@
 
 ```typescript
 // load library as ES 2015 module
-import { bee } from 'beehive'
+import 'beehive'
 
 // example function making slow calculations
 // have zero or one argument (not more)
