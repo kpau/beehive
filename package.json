@@ -4,6 +4,7 @@
   "description": "Multi-thread, async JS/TS library",
   "main": "bee.ts",
   "scripts": {
+    "build": "tsc -p tsconfig.json"
   },
   "author": "Kristiyan Nikolov",
   "license": "MIT",

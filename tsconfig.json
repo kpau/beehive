@@ -6,7 +6,11 @@
         "declaration": true,
         "baseUrl": "src",
         "rootDir": "src",
+        "sourceRoot": "src",
         "outFile": "dist/beehive.js",
         "moduleResolution": "node"
-    }
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
 }
