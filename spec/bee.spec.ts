@@ -1,4 +1,3 @@
-/// <reference path="../node_modules/@types/jasmine/index.d.ts" />
 /// <reference path="../dist/beehive.d.ts" />
 
 describe('bee', () => {
@@ -12,5 +11,5 @@ describe('bee', () => {
 
     it('should return string', () => {
         expect(bee()).toBe('test');
-    })
+    });
 });

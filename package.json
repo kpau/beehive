@@ -4,7 +4,7 @@
   "description": "Multi-thread, async JS/TS library",
   "main": "bee.ts",
   "scripts": {
-    "build": "run-s tsc test:run",
+    "build": "run-s lint tsc test:run",
     "tsc": "run-s tsc:*",
     "tsc:src": "tsc -p config/tsconfig.src.json",
     "tsc:spec": "tsc -p config/tsconfig.spec.json",
@@ -13,7 +13,8 @@
     "tdd": "run-p tdd:*",
     "tdd:src": "tsc -w -p config/tsconfig.src.json",
     "tdd:spec": "tsc -w -p config/tsconfig.spec.json",
-    "tdd:test": "karma start config/karma.conf.js --no-single-run --auto-watch"
+    "tdd:test": "karma start config/karma.conf.js --no-single-run --auto-watch",
+    "lint": "tslint --project tslint.json"
   },
   "author": "Kristiyan Nikolov",
   "license": "MIT",
@@ -26,6 +27,7 @@
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "npm-run-all": "^4.1.1",
+    "tslint": "^5.7.0",
     "typescript": "^2.5.3"
   }
 }
