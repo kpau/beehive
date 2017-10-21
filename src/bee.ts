@@ -51,6 +51,8 @@ export class Bee {
 }
 */
 
-function bee() {
-    return 'test';
-}
+const bee = (() => {
+    return () => {
+        return 'test';
+    };
+})();
