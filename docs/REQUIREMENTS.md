@@ -7,7 +7,6 @@
 import 'beehive'
 
 // example function making slow calculations
-// have zero or one argument (not more)
 // argument and return type are _whatever_
 function slowCalculations(arg: SomeType): OtherType {
     /* ... */
